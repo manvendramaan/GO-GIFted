@@ -1,6 +1,6 @@
 # GO-GIFted
 
-A fast, easy to use GIF app that runs on all modern browsers built using modern web technologies - ReactJS
+A fast, easy to use GIF app that runs on all modern browsers built using modern web technology - ReactJS
 
 ## Deployed on Firestore - https://go-gifted.web.app/
 

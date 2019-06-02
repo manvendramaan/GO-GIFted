@@ -1,0 +1,21 @@
+
+.header
+{
+	position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    z-index: 1;
+	padding-bottom: 25px;
+}
+
+.section
+{
+	padding-bottom: 50px;
+}
+
+h1 {
+  font-family: fantasy;
+  font-weight: 200;
+  color: #0ac85f;
+}

@@ -2,7 +2,7 @@
 
 A fast, easy to use GIF app that runs on all modern browsers built using modern web technology - ReactJS
 
-## Deployed on Firestore - https://go-gifted.web.app/
+## Deployed on Firebase Hosting - https://go-gifted.web.app/
 
 ## Features :
 - search GIFs via keyword(s)

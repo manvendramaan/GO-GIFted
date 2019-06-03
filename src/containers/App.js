@@ -34,7 +34,7 @@ class App extends Component {
 	if(this.state.searchfield !== undefined && this.state.searchfield !== null && this.state.searchfield !== '')	
 	{
 		try{
-			const response = await fetch(`https://api.giphy.com/v1/gifs/search?api_key=2CDxiUNuMSFB7ZSjrvDuSgcBDcQCfIND&q=${this.state.searchfield}&limit=${this.state.limit}`);
+			const response = await fetch(`https://api.giphy.com/v1/gifs/search?api_key=<api_key>&q=${this.state.searchfield}&limit=${this.state.limit}`);
 			const fetchedGifs = await response.json();
 			this.setState(() => ({ gifs: fetchedGifs.data })); 
 		}catch(e)
